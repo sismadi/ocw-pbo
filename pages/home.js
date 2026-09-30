@@ -2,16 +2,16 @@ pages.home = [
     // 1. HERO
     {
         section: 'hero',
-        title: 'Open Courseware Pemrograman Web',
-        tagline: 'Dari HTML Boilerplate hingga Single Page Application — Satu Semester, Satu Aplikasi Nyata.',
-        description: 'Platform belajar terbuka untuk mata kuliah Pemrograman Web. 16 modul terstruktur memandu mahasiswa membangun aplikasi CMS fungsional berbasis Vanilla JS — tanpa framework eksternal, tanpa jalan pintas.',
+        title: 'Open Courseware Pemrograman Berorientasi Objek',
+        tagline: 'Dari Kelas Pertama hingga Aplikasi Berbasis Objek — Satu Semester, Satu pbo-lab.',
+        description: 'Platform belajar terbuka untuk mata kuliah Pemrograman Berorientasi Objek. 16 modul terstruktur memandu mahasiswa membangun pbo-lab — aplikasi JavaScript berbasis objek dengan enkapsulasi, pewarisan, pola desain, GUI, dan pengujian.',
         badges: [
-            'Vanilla JS ES6+',
-            'Zero-Dependency',
+            'JavaScript ES6+',
+            'Object-Oriented',
+            'Design Patterns',
             '16 Modul',
-            'CRUD + SPA',
-            'License: MIT',
-            'DOI: 10.6084/m9.figshare.32400957'
+            'pbo-lab',
+            'License: MIT'
         ],
         cta: {
             text: 'Mulai Belajar',
@@ -20,28 +20,28 @@ pages.home = [
         imgClass: 'di-donat'
     },
 
-    // 2. KEY FEATURES — diambil dari 4 bagian kurikulum learn.js
+    // 2. KEY FEATURES — diambil dari 4 bagian kurikulum pbo.js
     {
         section: 'features',
         items: [
             {
                 icon: 'di-code',
-                title: 'Fondasi & Antarmuka',
-                content: 'HTML5 semantik, CSS3 modern (Flexbox, Grid, Variables), komponen modal dan toast notification. 4 pertemuan untuk membangun UI yang siap disambung logika.',
+                title: 'Fondasi OOP',
+                content: 'Paradigma prosedural vs OOP, kelas dan objek, atribut, metode, konstruktor, enkapsulasi, akses modifier, getter dan setter. 4 pertemuan untuk membangun fondasi kelas yang kokoh.',
                 linkText: 'Mulai Bagian 1 &raquo;',
                 linkTarget: 'learn/modul01'
             },
             {
                 icon: 'di-web',
-                title: 'JavaScript & Logika UI',
-                content: 'DOM selection, event listeners, renderTable(), validasi input, dan prototipe CRUD penuh. Diuji di UTS dengan standar industri.',
+                title: 'Pewarisan & Abstraksi',
+                content: 'Inheritance, polymorphism, method overriding, super, abstract class, interface, dan exception handling. Diuji di UTS dengan desain hierarki kelas.',
                 linkText: 'Mulai Bagian 2 &raquo;',
                 linkTarget: 'learn/modul05'
             },
             {
                 icon: 'di-setting',
-                title: 'Data, Storage & Async',
-                content: 'Object & Array ES6+, JSON, LocalStorage persistensi, Fetch API dengan pola hydration. Dari aplikasi sementara menjadi aplikasi yang benar-benar berfungsi.',
+                title: 'Koleksi, I/O & Pola Desain',
+                content: 'Exception handling, Array/Set/Map, generik, File I/O dan serialisasi JSON, pola Singleton, Factory, Observer, serta GUI dengan MVC. Dari kelas menjadi aplikasi utuh.',
                 linkText: 'Mulai Bagian 3 &raquo;',
                 linkTarget: 'learn/modul09'
             }
@@ -54,49 +54,49 @@ pages.home = [
         leftCol: {
             subtitle: 'Kurikulum 16 Modul',
             lines: [
-                '### Bagian 1: Fondasi & Antarmuka',
-                '**P1** — Pengenalan Ekosistem Web & Kontrak Perkuliahan',
-                '**P2** — HTML5: Struktur Data & Semantik Antarmuka',
-                '**P3** — CSS3: Desain & Layout Modern',
-                '**P4** — Manipulasi Layout & Komponen (Modal, Toast)',
+                '### Bagian 1: Fondasi OOP',
+                '**P1** — Kontrak Kuliah & Pengantar PBO',
+                '**P2** — Pengantar PBO, Paradigma & Perbandingan Prosedural',
+                '**P3** — Kelas & Objek',
+                '**P4** — Enkapsulasi & Akses Modifier',
                 '---',
-                '### Bagian 2: JavaScript & Logika UI',
-                '**P5** — Vanilla JS & Manipulasi DOM',
-                '**P6** — Interaktivitas & Logika Render',
-                '**P7** — Review & Integrasi Prototipe',
+                '### Bagian 2: Pewarisan, Abstraksi & UTS',
+                '**P5** — Pewarisan & Polimorfisme',
+                '**P6** — Abstraksi & Antarmuka',
+                '**P7** — Review & Integrasi P2–P6',
                 '**P8** — UTS: Evaluasi Tengah Semester',
                 '---',
-                '### Bagian 3: Data, Storage & Async',
-                '**P9** — Advanced JS: Object, Array & JSON',
-                '**P10** — Persistensi Data dengan LocalStorage',
-                '**P11** — Asynchronous JS & Fetch API',
-                '**P12** — CRUD: Create & Read dengan Fetch + Hydration',
+                '### Bagian 3: Koleksi, I/O & Pola Desain',
+                '**P9** — Exception Handling, Koleksi & Generik',
+                '**P10** — File I/O & Serialisasi Objek',
+                '**P11** — Pola Desain',
+                '**P12** — GUI Programming',
                 '---',
-                '### Bagian 4: CRUD Penuh & Finalisasi',
-                '**P13** — CRUD: Update & Delete',
-                '**P14** — Integrasi Proyek & Finalisasi',
-                '**P15** — Final Review & Demo Project',
-                '**P16/UAS** — Pengembangan SPA: CMS Fungsional'
+                '### Bagian 4: Pengujian, Proyek & Evaluasi Akhir',
+                '**P13** — Refactoring & Pengujian Perangkat Lunak',
+                '**P14** — Proyek Akhir',
+                '**P15** — Final Review & Demo P9–P14',
+                '**P16/UAS** — Demo Terpadu pbo-lab'
             ]
         },
         rightCol: {
             subtitle: 'Target Proyek & Cara Sitasi',
             lines: [
                 '### Target Proyek Akhir Semester',
-                'Mahasiswa membangun **Niura Article System** — CMS berbasis Single Page Application dengan:',
+                'Mahasiswa membangun **pbo-lab** — aplikasi berbasis objek dalam JavaScript dengan struktur berlapis:',
                 '```javascript',
-                '// Fitur yang wajib berfungsi di UAS:\n// ✅ SPA Navigation (Dashboard / List / Add-Edit)\n// ✅ Full CRUD: Create, Read, Update, Delete\n// ✅ Persistensi LocalStorage + Fetch Hydration\n// ✅ Responsif di mobile\n// ✅ Toast Notification & Modal Edit\n// ✅ Search real-time\n// ✅ Dashboard Stats (total artikel, bulan ini)',
+                '// Fitur yang wajib berfungsi di UAS:\n// ✅ Model domain (Mahasiswa, MataKuliah, Nilai)\n// ✅ Enkapsulasi dengan private field & validasi\n// ✅ Pewarisan & polimorfisme (abstract class)\n// ✅ Koleksi Map/Set untuk data dinamis\n// ✅ File I/O + serialisasi JSON\n// ✅ Pola desain: Singleton, Factory, Observer\n// ✅ GUI dengan pola MVC\n// ✅ Unit test gaya JUnit + siklus TDD',
                 '```',
                 '---',
                 '### Bobot Penilaian UAS',
-                'skill:30%:Logika CRUD Penuh (C-R-U-D tanpa error):Utama',
-                'skill:20%:Arsitektur SPA (min 3 menu, tanpa reload):Arsitektur',
-                'skill:20%:Persistensi Data (LocalStorage + Fetch):Teknis',
-                'skill:20%:UI/UX Responsif & CSS Variables:Desain',
-                'skill:10%:Kualitas Kode & Dokumentasi:Profesional',
+                'skill:25%:Fungsionalitas aplikasi (CRUD + GUI):Utama',
+                'skill:25%:Kualitas kode & pengujian (unit test):Teknis',
+                'skill:20%:Inovasi desain (pola, arsitektur):Inovasi',
+                'skill:15%:Dokumentasi & repo (README, API):Profesional',
+                'skill:15%:Presentasi & demo aplikasi:Presentasi',
                 '---',
                 '### How to Cite This Courseware',
-                '**Wawan Sismadi.** (2026). *OCW-PW: Open Courseware Pemrograman Web*. Figshare. DOI: 10.6084/m9.figshare.32400957'
+                '**Yogi Kristiyanto.** (2026). *OCW-PBO: Open Courseware Pemrograman Berorientasi Objek*. Figshare.'
             ]
         }
     }
